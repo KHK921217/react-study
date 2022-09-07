@@ -1,0 +1,27 @@
+nodejs - 자바스크립트 독립 실행기
+npm - nodejs 설치 시 자동설치, 자바스크립트 라이브러리 설치 및 실행
+barbel 라이브러리 - jsx 문법
+webpack - 압축기
+
+create-react-app 라이브러리
+
+<설치방법>
+1. vscode
+ - 설정 > setting json세팅 >  "emmet.includeLanguages":{"javascript":"javascriptreact"} 해당코드 추가
+ - 익스텐션 설치 : Reactjs code snippets, Auto Import
+ - vscode 관리자 권한 실행: 해당아이콘 우클릭 > 속성 > 호환성 > 관리자권한 체크박스 체크 후 확인
+ - vscode 오픈 > 상단 새터미널 클릭
+
+2. nodejs > lst버전으로 설치 > node js 설치확인 > 터미널 > node - v 입력 후 enter 키
+3. 리액트프로그램 세팅
+ - 터미널에: npm install -g create-react-app 입력후 enter 키
+ - 설치확인: create-react-app -v 입력 후 enter 키 (버전확인 가능)
+ - 폰트 이상시: 설정 > font family 검색 후 터미널 font family에 D2Coding 입력
+ - 리액트 프로젝트 폴더 만들기: create-react-app floderName
+ - 리액트 서버환경 실행 : 터미널 npm run start
+ - 리액트 서버환경 종료: ctrl+c
+ - 파일 초기화 하기: public 폴더에서 html에서 초기세팅확인
+	index.js 에서 파일 초기화
+	app.js에서 에서 src 작성 후 탭 클릭
+
+4. 리액트프로젝트 깃과 연동 시 주의사항
